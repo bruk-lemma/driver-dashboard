@@ -15,7 +15,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.recharts-wrapper > svg > g {
+  outline: none !important;
+}
 
+.recharts-pie * {
+  outline: none !important;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
