@@ -9,14 +9,14 @@ import { ResponsiveContainer, PieChart, Pie, Tooltip } from "recharts";
 
 async function fetchRegions() {
   const { data } = await axios.get(
-    "http://localhost:5053/api/analytics/region"
+    "https://new-driver-back.onrender.com/api/analytics/region"
   );
   return data.data;
 }
 
 async function fetchStudents() {
   const { data } = await axios.get(
-    "http://localhost:5053/api/analytics/schools"
+    "https://new-driver-back.onrender.com/api/analytics/schools"
   );
   return data.data;
 }
